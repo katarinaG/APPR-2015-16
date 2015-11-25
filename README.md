@@ -5,10 +5,13 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2015/16.
 ## Tematika
 
 Za temo projekta sem si izbrala Pesem Evrovizije. Analizirala bom tekmovanje od začetka v letu 1956 do leta 2014. Pri tem bom uporabila dve tabeli: Prva tabela, ki sem jo napisala v excelu (CSV), obravnava spremeljivke: država (imenska spremenljivka), mesto prve udeležbe države na tekmovanju Pesmi Evrovizije (imenska spremenljivka), leto prve udeležbe države na tekmovanju (številska spremenljivka), število udeležb (številska spremenljivka), število zmag (številska spremenljivka) ter urejenostno spremeljivko - razsežnost držav glede na število udeležb. Če se je država udeležila tekmovanja manj kot dvajsetkrat, je razsežnost majhna, srednja, če se je udeležila manj kot štiridesetkrat in visoka sicer. Druga tabela v HTML obliki pa vsebuje podatke: leto (številska), gostiteljica Evrovizije (imenska), mesto (imenska), država zmagovalka (imenska), zmagovalni izvajalec (imenska) in zmagovalna pesem (imenska). Tabelo sem dobila na strani:http://sl.wikipedia.org/wiki/Pesem_Evrovizije .
+
 Cilj: Cilj projektne naloge je, da analiziram katere države so se največkrat udeležile tekmovanja, katere zmagale, katere države (mesta) so bile največkrat gostiteljice dogodka ter katerega leta je največ držav prvič nastopilo.
 Podatke sem dobila iz spletnih naslovov:
+
 •	Wikipedija: http://sl.wikipedia.org/wiki/Pesem_Evrovizije
 •	http://www.eurovision.tv/page/history/year
+
 
 Podatke,ki jih potrebujem, bom v R uvozila iz CSV in HTML oblike.
 
